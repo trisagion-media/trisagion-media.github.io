@@ -1,5 +1,11 @@
 body {
     background-color: black;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "OCRA", Fallback, monospace;
+}
+
+@font-face {
+    font-family: "OCRA";
+    src: url('fnt/ocra.woff2') format('woff2'),
+        url('fnt/ocra.woff') format('woff');
 }
