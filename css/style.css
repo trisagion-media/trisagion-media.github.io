@@ -16,3 +16,36 @@ img {
     src: url('fnt/ocra.woff2') format('woff2'),
         url('fnt/ocra.woff') format('woff');
 }
+
+.nav {
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 3px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-right: 2px;
+    border-color: white;
+    width: fit-content;
+}
+
+.selected {
+    background-color: rgb(53, 53, 53);
+    color:white;
+}
+
+.notselected {
+    background-color:darkred;
+    color:white
+}
+
+button{
+    background-color: white;
+    color: red;
+    transition-duration: 0.2s;
+}
+  
+.notselected:hover {
+    background-color: purple;
+    color: rgb(0, 204, 204);
+    cursor: pointer;
+}
