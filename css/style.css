@@ -1,7 +1,14 @@
 body {
     background-color: black;
     color: white;
-    font-family: "OCRA", Fallback, monospace;
+    font-family: "OCRA", Fallback, sans-serif;
+}
+
+img {
+    max-width: 15%;
+    height: auto;
+    left: 0px;
+    right: 0px;
 }
 
 @font-face {
