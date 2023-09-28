@@ -1,7 +1,9 @@
 body {
     background-color: black;
     color: white;
-    font-family: "OCRA", Fallback, sans-serif;
+    font-family: ocr-a-std monospace;
+    font-style: normal;
+    font-weight: 400;
 }
 
 img {
@@ -9,12 +11,6 @@ img {
     height: auto;
     left: 0px;
     right: 0px;
-}
-
-@font-face {
-    font-family: "OCRA";
-    src: url('fnt/ocra.woff2') format('woff2'),
-        url('fnt/ocra.woff') format('woff');
 }
 
 .nav {
