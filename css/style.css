@@ -1,9 +1,13 @@
+@font-face {
+    font-family: "ocra";
+    src: url("../fnt/ocra.woff") format('woff');
+}
+
 body {
     background-color: black;
-    color: white;
-    font-family: ocr-a-std monospace;
+    color: #c4c4c4;
+    font-family: ocra;
     font-style: normal;
-    font-weight: 400;
 }
 
 img {
